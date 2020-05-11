@@ -7,6 +7,7 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: Roboto;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.03em;
 }
@@ -38,16 +39,17 @@ ul {
 header .link {
   font-family: inherit;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   text-decoration: none;
 }
+header .link.current {
+  color: var(--accent-text-color);
+}
 header .link-info {
   font-family: inherit;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -65,7 +67,6 @@ header .link-info:focus {
 address {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -100,13 +101,12 @@ address {
 /* advantages */
 .advantage-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
 .advantage-text {
-  font-size: 14px;
   line-height: 1.71;
 }
 .activity-main-title {
@@ -118,7 +118,7 @@ address {
 }
 .activity-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -152,7 +152,7 @@ address {
 .filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   text-align: center;
   color: var(--main-title-color);
 }
